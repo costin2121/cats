@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inconsolata:wght@200..900&family=Jersey+25&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Poetsen+One&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Outfit", sans-serif;
+    color: white;
+}
+
+body {
+    background-color: rgb(40, 40, 40);
+    user-select: none;
+}
+
+.container {
+    text-align: center;
+}
+
+#cat_img {
+    max-width: 500px;
+    max-height: 300px;
+
+    border-radius: 10px;
+}
+
+#new_cat {
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 10px;
+    background-color: rgb(30, 30, 30);
+    border: none;
+    cursor: pointer;
+    transition: all 0.15s ease-in-out;
+}
+
+#new_cat:hover {
+    background-color: rgb(20, 20, 20);
+}
+
+#new_cat:active {
+    scale: 0.9;
+}
