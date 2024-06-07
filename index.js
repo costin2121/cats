@@ -1,7 +1,7 @@
 const urls = ["https://cataas.com/cat?json=true", "https://cataas.com/cat/gif?json=true", "https://cataas.com/cat/cute?json=true", "https://cataas.com/cat/silly?json=true", "https://api.thecatapi.com/v1/images/search"]
 const catImg = document.getElementById("cat_img");
 const newCat = document.getElementById("new_cat")
-
+console.log('%cHello😺', 'font-size: 36px; font-weight: bold');
 window.onload = async () => {
     await newCatImage()
 }
