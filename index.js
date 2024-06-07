@@ -19,7 +19,7 @@ async function newCatImage() {
         if (!isApiCATAAS) {
             catImg.src = data[0].url;
         } else {
-            catImg.src = `https://cataas.com/cat/${data._id}`
+            catImg.src = `https://cataas.com/cat/${data._id}${url.includes("gif") && ".gif"}`
         }
     } catch (e) {
         newCatImage();
