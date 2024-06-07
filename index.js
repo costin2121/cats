@@ -19,7 +19,6 @@ async function newCatImage() {
         if (!isApiCATAAS) {
             catImg.src = data[0].url;
         } else {
-            console.log(data)
             catImg.src = `https://cataas.com/cat/${data._id}`
         }
     } catch (e) {
